@@ -6,8 +6,8 @@ local alreadyDead = false
 function signal()
     local playerPed = GetPlayerPed(-1)
     local coords    = GetEntityCoords(playerPed)
-     local call = math.random(0, 3)
-     if call == 2 then
+     local call = math.random(0, 1)
+     if call == 1 then
 
     TriggerServerEvent('esx_phone:send', "ambulance", _U('distress_message'), true, {
         x = coords.x,
