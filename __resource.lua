@@ -11,12 +11,14 @@ version '1.0.0'
 server_scripts {
     '@es_extended/locale.lua',
 	'locales/sv.lua',
+	'locales/en.lua',
 	'config.lua'
 }
 
 client_scripts {
     '@es_extended/locale.lua',
 	'locales/sv.lua',
+	'locales/en.lua',
 	'config.lua',
 	'client/main.lua'
 }
